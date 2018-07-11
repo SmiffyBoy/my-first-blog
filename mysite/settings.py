@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '+iu#y$p==)w3n0+l)dy98e^^51jb5a(hu4wo70_ng=fzfyk&fi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', '.c9users.io','.amazonaws.com','b9e55aecec834e96972d4eee5b8f0bab.vfs.cloud9.eu-west-1.amazonaws.com']
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
